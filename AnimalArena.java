@@ -57,7 +57,7 @@ public class AnimalArena {
     public static void pause(int millisecond){
         try {
             Thread.sleep(millisecond);
-        } catch (InerruptedException e) {
+        } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
     }
